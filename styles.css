@@ -1,7 +1,7 @@
 /* Set mint green background */
 body {
     font-family: Arial, sans-serif;
-    background-color: #98ff98; /* Mint Green */
+    background-color: #c4e4db; /* Mint Green */
     margin: 0;
     padding: 0;
     display: flex;
@@ -32,7 +32,7 @@ header, footer {
 
 /* Ensure text remains readable */
 header h1, footer p {
-    color: black;
+    color: rgb(201, 157, 173);
     font-weight: bold;
 }
 
@@ -49,7 +49,7 @@ main {
 
 /* Section styling */
 section {
-    background: white;
+    background: rgba(255, 255, 255, 0.525);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
