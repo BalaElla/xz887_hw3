@@ -91,17 +91,23 @@ footer {
     }
 }
 
-blockquote {
-    font-size: 1.2em;
-    font-style: italic;
+/* Cocktail Section */
+#cocktail-name {
+    font-size: 1.5em;
+    font-weight: bold;
     color: #333;
-    padding: 10px;
-    border-left: 4px solid #555;
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 
-#author {
-    font-size: 1em;
-    font-weight: bold;
-    color: #666;
+#cocktail-img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+#cocktail-instructions {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #555;
+    padding: 10px;
 }
