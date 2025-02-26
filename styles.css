@@ -19,6 +19,23 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Frosted Glass Effect */
+header, footer {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Blurs the background */
+    -webkit-backdrop-filter: blur(10px); /* Ensures compatibility with Safari */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure text remains readable */
+header h1, footer p {
+    color: black;
+    font-weight: bold;
+}
+
 /* Main container using CSS Grid */
 main {
     display: grid;
@@ -72,4 +89,19 @@ footer {
     section {
         padding: 30px; /* More padding on larger screens */
     }
+}
+
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333;
+    padding: 10px;
+    border-left: 4px solid #555;
+    margin: 10px 0;
+}
+
+#author {
+    font-size: 1em;
+    font-weight: bold;
+    color: #666;
 }
